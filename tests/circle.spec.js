@@ -39,7 +39,7 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     expect(circle(3).area).toEqual(28.259999999999998);
   });
   it('Verifica se o objeto retornado possui 3 propriedades', () => {
-    expect(circle(circle(3).length, 3))
+    expect(circle(circle(3).length, 3));
   });
 
 
