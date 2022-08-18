@@ -104,10 +104,10 @@ const createMenu = (object) => {
         sum += object[menu.consumption[i]].valor;
       }
       return sum * 1.1;
-    }
+    },
   };
-  return menu
-}
-console.log(createMenu({ food: { 'coxinha': 3.90 }, drinks: { 'agua': 3.90 } }));
+  return menu;
+};
+console.log(createMenu({ food: { coxinha: 3.90 }, drinks: { agua: 3.90 } }));
 
 module.exports = createMenu;
