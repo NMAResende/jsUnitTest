@@ -103,7 +103,8 @@ const createMenu = (object) => {
       for (let i = 0; i < menu.consumption.length; i += 1) {
         sum += object[menu.consumption[i]].valor;
       }
-      return sum * 1.1;
+      const total = sum * 0.1;
+      return total + sum;
     },
   };
   return menu;
